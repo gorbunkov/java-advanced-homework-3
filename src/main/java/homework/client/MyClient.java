@@ -38,6 +38,8 @@ public class MyClient {
 //            out.println(createCommandJson("zip", "/Users/gorbunkov/Work/trainings"));
 //            out.println(createCommandJson("download", "https://www.haulmont.com|https://www.haulmont.ru|https://www.google.com"));
 //            out.println(createCommandJson("sum", "2000"));
+            String response = in.readLine();
+            log.info("Server response: {}", response);
         } catch (IOException e) {
             log.error("Error on opening the socket connection", e);
         }
