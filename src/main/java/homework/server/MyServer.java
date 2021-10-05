@@ -2,6 +2,9 @@ package homework.server;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import homework.server.command.DownloadCommand;
+import homework.server.command.SumCommand;
+import homework.server.command.ZipCommand;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
